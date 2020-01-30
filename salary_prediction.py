@@ -32,7 +32,7 @@ pyplot.show()
 #Visualising the test set result
 pyplot.scatter(years_test, salary_test, color = 'black')
 pyplot.plot(years_train, regressor.predict(years_train), color = 'red')
-pyplot.title("Salary vs Experience (Training Set)")
+pyplot.title("Salary vs Experience (Test Set)")
 pyplot.xlabel('Years of Experience')
 pyplot.ylabel('Salary')
 pyplot.show()
